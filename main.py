@@ -12,7 +12,7 @@ days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sun
 df['Day of week'] = df['Date'].apply(lambda x: days[x.weekday()])
 
 # heading
-st.header('Google fit graph')
+st.header('GoogleFit Attributess throughout the day')
 
 # input data
 attribute = st.selectbox('Attribute', ('Calories (kcal)', 'Heart Points', 'Heart Minutes', 'Step count'))
